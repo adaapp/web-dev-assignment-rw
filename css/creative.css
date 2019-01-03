@@ -75,6 +75,7 @@ section {
   text-shadow: none;
 }
 
+
 img::-moz-selection {
   color: #fff;
   background: transparent;
@@ -145,6 +146,7 @@ img::-moz-selection {
   background-color: transparent;
 }
 
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -167,6 +169,7 @@ img::-moz-selection {
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
   }
+  
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;

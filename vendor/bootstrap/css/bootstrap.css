@@ -35,6 +35,12 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.img-circle {
+  max-width: 150px;
+  max-height: auto;
+}
+
+
 *,
 *::before,
 *::after {
@@ -477,6 +483,7 @@ mark,
 .blockquote-footer::before {
   content: "\2014 \00A0";
 }
+
 
 .img-fluid {
   max-width: 100%;
@@ -5810,6 +5817,7 @@ button.close {
 
 .carousel {
   position: relative;
+  background-color: #353535
 }
 
 .carousel-inner {
@@ -5828,7 +5836,9 @@ button.close {
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
+
 }
+
 
 .carousel-item.active,
 .carousel-item-next,
